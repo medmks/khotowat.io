@@ -1,0 +1,7 @@
+{
+  "name": "Khotowat.io",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
