@@ -6,4 +6,7 @@ Go to your new project: cd .\khotowat-io
 - Explore the Ionic docs for components, tutorials, and more: https://ion.link/docs
 - Building an enterprise app? Ionic has Enterprise Support and Features: https://ion.link/enterprise-edition
 
-NOTE:step One : create new page
+NOTE:step One : create new page  DONE
+
+NOTE: Step 2 : create the funcionality
+

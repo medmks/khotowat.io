@@ -33,12 +33,6 @@ const App: React.FC = () => (
         <Route path="/" exact={true}>
           <StarterKitPage />
         </Route>
-        <Route path="/home" exact={true}>
-          <Home />
-        </Route>
-        <Route path="/message/:id">
-          <ViewMessage />
-        </Route>
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
