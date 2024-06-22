@@ -1,9 +1,10 @@
 /* Install the prettier package using npm */
 /* npm install --save-dev --save-exact prettier */
 
-*{
-  font-family: "Almarai", sans-serif;
-  font-weight: 500;
+* {
+  font-family: "Noto Kufi Arabic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
   font-style: normal;
 }
 .flex {
@@ -35,13 +36,18 @@ ion-card {
   background-color: #2a2a2c;
   padding: 2px;
   border-radius: 30px;
-  font-weight: lighter;
   font-size: small;
   text-transform: none;
 }
-.sort-btn:nth-child(1) {
+.activeIonbtn {
   background-color: aliceblue;
   color: black;
+  padding: 2px;
+  border-radius: 30px;
+  font-weight: lighter;
+  font-size: small;
+  font-weight: bold;
+  text-transform: none;
 }
 .sticky-container {
   position: sticky;
@@ -51,7 +57,7 @@ ion-card {
 }
 .CardTitle {
   color: aliceblue;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
   font-size: x-large;
   margin-bottom: 3px;
   position: sticky;
@@ -67,12 +73,11 @@ ion-card {
   overflow-y: scroll;
   overflow-x: scroll;
 }
-.tasks-container{
+.tasks-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 8px;
-
 }
 
 .task-section {
